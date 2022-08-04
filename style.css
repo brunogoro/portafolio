@@ -1,0 +1,42 @@
+body{
+    background-image: url("img/fondo.jpg");
+    background-position: center 0px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header{
+	width: 100%;
+    background-color: rgb(153, 147, 147);
+}
+
+.navegacion{
+	width: 1000px;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	display : inline-block; 
+}
+
+.menu > li > a{
+	display: block;
+    font-size: 25px;
+	padding: 15px 20px;
+	color: rgb(0, 0, 0);
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+
+#logolinkedin {
+	margin-left: 50%;
+}
